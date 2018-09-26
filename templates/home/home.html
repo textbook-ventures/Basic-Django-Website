@@ -1,0 +1,414 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- meta -->
+			<title>Finhack</title>
+			<meta property="og:title" content="Finhack"/>
+			<meta property="og:type" content="website"/>
+			<meta property="og:url" content="https://finhack.textbook.ventures/"/>
+			<meta property="og:site_name" content="Textbook Venture's Finhack"/>
+			<meta property="og:description" content="Hack the FinTech Future"/>
+			<meta property="og:image" content="{% static 'img/textbook-ventures-icon.png' %}"/>
+			<link  rel="shortcut icon" href="{% static 'img/textbook-ventures-icon.png' %}"/>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Icons-->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">  
+		<!-- Google Fonts-->
+			<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		<!-- FontAwesome -->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- Custom styles for this template -->
+			<link rel="stylesheet" href="{% static 'css/base.css' %}">
+		<!-- Facebook Pixel Code -->
+			<script>
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window,document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			 fbq('init', '664602047251753'); 
+			fbq('track', 'PageView');
+			</script>
+			<noscript>
+			 <img height="1" width="1" 
+			src="https://www.facebook.com/tr?id=664602047251753&ev=PageView
+			&noscript=1"/>
+			</noscript>
+		<!-- End Facebook Pixel Code -->
+	</head>
+	<body class="text-center" data-spy="scroll" data-target="#nav-menu">
+		<header class="masthead mb-auto">
+			<div class="inner">
+				  <nav id="nav-menu" class="navbar nav-masthead fixed-top navbar-expand-md">
+					 <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+							<a class="masthead-brand navbar-brand" href="https://textbook.ventures">
+							<img id="nav-img"class ="img-responsive" src="{% static 'img/textbook-ventures.png' %}" alt="Textbook Ventures">
+						</a>
+						<a class="nav-link" href="#register">Register</a>
+						<a class="nav-link" href="#about">About</a>
+						<a class="nav-link" href="#challenge">Challenge</a>
+						<a class="nav-link" href="#venue">Venue</a>
+						<a class="nav-link" href="#prizes">Prizes</a>
+						<a class="nav-link" href="#schedule">Schedule</a>
+						<a class="nav-link" href="#faq">FAQ</a>
+						<a class="nav-link" href="#contact">Contact</a>
+					</div>
+				  </nav>
+			</div>
+		</header>
+		<main id="content" class="" role="main">
+			<section id="register">
+				<div id="inner-cover" class="mx-auto w-100 text-right">
+					<div id="cover-text">
+						<h1 class="cover-heading text-uppercase">FinHack<br>2018</h1>
+						<h2 class="cover-heading2 text-uppercase">Hacking FinTech's Future</h2>
+						<p class="lead">August 10-12th, 2018</p>
+						<p class="lead">Stone &amp; Chalk, Sydney Startup Hub</p>
+						<p class="lead">Powered By</p>
+						<img class="logo d-inline" src="{% static 'img/textbook-ventures.png' %}">
+						<img class="logo d-inline p-3" src="{% static 'img/reinventure.png' %}">
+						<p class="lead">
+						<a href="https://www.eventbrite.com.au/e/finhack-tickets-48122404407" class="btn btn-lg btn-outline-light my-3 register-button">Cancelled</a>
+						</p>
+					</div>
+				</div>
+				</div>
+				<img class="cover-deco" id="piggy" src="{% static 'img/piggy.png' %}">
+				<img class="cover-deco" id="dollar" src="{% static 'img/dollar.png' %}">
+				<img class="cover-deco" id="cog" src="{% static 'img/cog.png' %}">
+				<img class="cover-deco" id="card" src="{% static 'img/card.png' %}">
+				<img class="cover-deco" id="coin" src="{% static 'img/coin.png' %}">
+			</section>
+			<section id="about" class="text-left">
+				<div class="container">
+					<h1>FinHack</h1>
+					<div class="row">
+						<div class="col-md">
+							<p>Australia has the potential to be a future global leader in fintech - that’s why Textbook Ventures and Reinventure Group have joined forces to launch the first student fintech hackathon “FinHack” to give uni students an opportunity to hack the future of fintech. </p>
+							<p>Students will problem-solve with, and be mentored by, some of Australia’s most promising fintech companies to understand the unique opportunities offered by Australia's fintech industry. Students from all universities, faculties, and experiences are welcome to take part!</p>
+							<p>The event is sponsored by Reinventure Group, Westpac’s VC arm, to help students take their first step into a booming industry and to encourage great ideas to bloom in Australian fintech.</p>
+						</div>
+						<div class="col-lg">
+							<img class="img-fluid p-2 slide-left" src="{% static 'img/example-2.jpg' %}">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="sponsors" class="">
+				<div class="container">
+					<h1 class="text-left">Sponsors</h1>
+					<div class="row">
+						<div class="col-md">
+							<div class="sponsor-logo-container">
+								<img class="sponsor-logo" src="{% static 'img/reinventure-black.png' %}">
+							</div>
+							<p>Reinventure is pioneering Founder-First Corporate Venture Capital. They champion founders who have the vision, ambition and hustle to transform an industry across Asia-Pacific and beyond, propelling them with the support of a top 20 bank globally. </p>
+							<p>With $150 million under management and Westpac Banking Corporation as its largest limited partner, Reinventure has invested in some of the most disruptive fintech companies across Australia, New Zealand and the United States. Its portfolio companies include BrickX, Hey You, Valiant Finance, Data Republic, Coinbase, Society One and Assembly Payments.</p>
+							<a href="https://reinventure.com.au/" id ="reinventure-button" class="btn btn-outline-dark" role="button" target="_blank">Find out more
+							</a>
+						</div>
+						<div class="col-md">
+							<div class="sponsor-logo-container">
+								<img class="sponsor-logo" src="{% static 'img/textbook-ventures-black.png' %}">
+							</div>
+							<p>Our mission at Textbook Ventures is to raise the profile of entrepreneurship amongst NSW students by creating engaging offline and online communities.</p>
+							<p>We are a non-profit organisation that works across all major universities in NSW to support student entrepreneurs.</p>
+							<a href="https://textbook.ventures/" class="btn btn-outline-primary" role="button" target="_blank">Find out more
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="challenge" class="">
+				<div class="container">
+					<h1 class="text-left">The Challenge</h1>
+					<div class="row my-5 mx-0">
+						<div class="col-md-4 p-0 startup-logo-container">
+							<img class="startup-logo img-fluid" src="{% static 'img/BrickX.png' %}">
+							<div class="startup-overlay">
+							<div class="startup-description">
+								<p>A real-estate platform that allows consumers to buy and sell very small stakes in residential properties.</p>
+								<a href="https://www.brickx.com/" class="btn btn-outline-light" role="button" target="_blank"><i class="fa fa-chevron-right"></i></a>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-4 p-0 startup-logo-container">
+							<img class="startup-logo img-fluid" src="{% static 'img/ValiantFinance.png' %}">
+							<div class="startup-overlay">
+								<div class="startup-description">
+									<p>A online platform aiming to help SMEs secure loans, matching users with lending partners through an algorithm.</p>
+									<a href="https://valiant.finance/" class="btn btn-outline-light" role="button" target="_blank"><i class="fa fa-chevron-right"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 p-0 startup-logo-container">
+							<img class="startup-logo img-fluid" src="{% static 'img/HeyYou.png' %}">
+							<div class="startup-overlay">
+							<div class="startup-description">
+										<p>A app cutting consumer's wait time for their everyday purchases whilst enabling merchants to manage their peak loads.</p>
+									<a href="https://heyyou.com.au/" class="btn btn-outline-light" role="button" target="_blank"><i class="fa fa-chevron-right"></i></a>
+							</div>
+							</div>
+						</div>
+					</div>
+						<div class="row mx-auto text-left">
+							<p>Three of the best fintech startups in Reinventure’s portfolio have come up with three “Challenges”, opportunities to change the fintech landscape. Teams will choose one of these challenges to solve in 24 hours.</p>
+							<p>Each problem is intended to be broad and teams are encouraged to use their creative juices to find the best solution to the problem.</p>
+							<p>Each fintech startup out of the total three from Reinventure’s portfolio will manage a problem scenario and teams will have the opportunity to be mentored by these startups to get to the nitty gritty of the problem.</p>
+					</div>
+				</div>
+			</section>
+			<section id="venue" class="text-left ">
+				<div class="container-fluid pl-0">
+					<div class="row mx-0">
+						<div id="maps-embedded" class="col-md p-0" style="margin-top: -7rem; margin-bottom: -7rem;">
+							<iframe width="100%" height="100%" frameborder="0" style="border:0;min-height: 30rem;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ1-h7xECuEmsRZxMEe-RK-No&key=AIzaSyBPaY9srMtugiwqFTP5TE5MuG8BJy39lWY" allowfullscreen=""></iframe>
+						</div>
+						<div id="venue-directions" class="col-md mx-5">
+							<h1>Venue</h1> 
+							<a href="https://goo.gl/maps/jr7K2Duh2g82">
+								<p>Level 4/11 York St, Sydney Startup Hub<br>Sydney NSW 2000</p>
+							</a>
+							<p>The hackathon will take place at co-working space Stone And Chalk, a bustling hub for fintech and innovation.</p>
+								<p><b>Getting there:</b> Stone and Chalk is nestled inside the Sydney Startup Hub, on Level 4. The Sydney Startup Hub is just above Wynyard Station on York Street, and across the street from Wynyard Park.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="prizes" class="">
+				<div class="container">
+					<div class="row text-left ">
+						<div class="col-md py-3">
+							<h1>The Grand Prize</h1>
+							<h3>A Fintech Odyssey</h3>
+							<p>The winning team will be treated to the “Fintech Odyssey”, a red-carpet tour of the Sydney Fintech ecosystem</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="prize-icon" src="{% static '/img/breakfast.png' %}">
+							<p><b>Breakfast</b> with the Reinventure team</p>
+						</div>
+						<div class="col-md-6">
+							<img class="prize-icon" src="{% static '/img/tour.png' %}">
+							<p><b>Tour</b> of Sydney’s leading fintech co-working space <a href="https://www.stoneandchalk.com.au/">Stone &amp; Chalk</a> and the <a href="https://sydneystartuphub.com/">Sydney Startup Hub</a> with he Stone &amp; Chalk team</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="prize-icon" src="{% static '/img/lesson.png' %}">
+							<p><b>Workshop</b>(‘How to build a disruptive fintech startup’ run by Reinventure) to equip the winning team with the necessary growth mindset and philosophies that successful fintech founding teams take.</p>
+						</div>
+						<div class="col-md-6">
+							<img class="prize-icon" src="{% static '/img/lunch.png' %}">
+							<p><b>Lunch with Startup Founders/CTO</b> Tour of startups in the cohort of Reinventure then lunch with startup founders/CTOs from the 3 startups involved</p>
+						</div>
+					</div>
+					<p class="text-left">The winning team will also have the opportunity to interview for internship openings across any of the three Reinventure fintech startups.</p>
+				</div>
+			</section>
+			<section id="criteria" class="text-left">
+				<div class="container">
+					<h1>Criteria</h1>
+					<p><b>Teams are judged on four qualities:</b></p>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p><b>1.Relevance</b><p>
+							<p>Does the solution adequately solve the challenge presented? Could it be leveraged by the venture seamlessly?</p>
+						</div>                      
+						<div class="col-md-6">
+							<p><b>2.Creativity</b><p>
+							<p>Has the team used all their creative juices to arrive at the solution and its application/execution? </p>
+						</div>                      
+					</div>                      
+					<div class="row">
+						<div class="col-md-6">
+							<p><b>3.Sophistication</b><p>
+							<p>Is the solution technically sophisticated? Can the technical solution be easily replicated or does it show a level of complexity?</p>
+						</div>                      
+						<div class="col-md-6">
+							<p><b>4.Polish</b><p>
+							<p>Is the solution workable with a smooth user experience? Is there a high level of attention to detail in the design?</p>
+						</div>                      
+					</div>                      
+				</div>
+			</section>
+			<section id="schedule" class="">
+				<div class="container">
+					<h1 class="mb-3 text-left">Hackathon Schedule</h1>
+					<table class="table text-left">
+						<tr>
+							<th colspan=2>Friday</th>
+						</tr>
+							<td><b>6PM</b></td>
+							<td>
+								<b>Meet the Startups:</b> Intro to the three fintech startups and their vision, then a Q&amp;A session<br>
+								Students who sign up individually will also have the opportunity to form groups.<br>
+								There’ll also be a mix and meet with pizza and beers.<br>
+							</td>
+						</tr>
+							<td><b>7PM</b></td>
+							<td>Challenges released</td>
+						<tr>
+							<td><b>8PM</b></td>
+							<td><b>Hackathon Starts</b></td>
+						</tr>
+						<tr>
+							<th colspan=2>Saturday</th>
+						</tr>
+						<tr>
+							<td><b>10AM</b></td>
+							<td>Stone &amp; Chalk Workspace Opens</td>
+						</tr>
+						<tr>
+							<td><b>12PM</b></td>
+							<td>
+								<b>Validation and Market Research Workshop:</b> The workshop will be run by one of the three startups and will give the students a rundown on how to validate an idea and conduct market research on product feasibility.
+							</td>
+						</tr>
+						<tr>
+							<td><b>1PM</b></td>
+							<td>
+								<b>Lunch</b> + <b>Mentoring:</b> Students will have the opportunity to review their ideas with the startup managing their problem scenario.
+							</td>				
+						</tr>
+						<tr>
+							<td><b>6PM</b></td>
+							<td>Stone &amp; Chalk Closes</td>				
+						</tr>
+						<tr>
+							<th colspan=2>Sunday</th>
+						</tr>
+						<tr>
+							<td><b>10AM</b></td>
+							<td>Stone &amp; Chalk Opens</td>				
+						</tr>
+						<tr>
+							<td><b>12PM</b></td>
+							<td>
+								<b>Pitching Workshop:</b> The workshop will run teams through the information that startups often put in pitches. The coach will also talk about popular speaking techniques that successful pitchers use.
+							</td>
+						</tr>
+						<tr>
+							<td><b>12PM</b></td>
+							<td>
+								<b>Lunch</b> + <b>Mentoring:</b> Students will have the opportunity to review their ideas with the startup managing their problem scenario.
+							</td>
+						</tr>
+						<tr>
+							<td><b>1:30PM</b></td>
+							<td>
+								<b>Final Pitches:</b> All teams will pitch in front of the fintech startups and Reinventure partners.
+							</td>				
+						</tr>
+						<tr>
+							<td><b>4:30PM</b></td>
+							<td>
+								Networking
+							</td>				
+						</tr>
+						<tr>
+							<td><b>5PM</b></td>
+							<td>
+								<b>Close</b>
+							</td>				
+						</tr>
+					</table>
+				</div>
+			</section>
+			<section id="faq" class="text-left ">
+				<div class="container">
+					<h1 class="mb-3">FAQ</h1>
+					<div class="row">
+						<div class="col-md">
+							<p><b>Who can compete at FinHack?</b></p>
+							<p>FinHack is open to any student 18 years and older, enrolled in a university, this includes postgraduate studies. We reserve the right to cancel your ticket if you do not meet this requirement.</p>
+							<p><b>How many people can be in a team?</b></p>
+							<p>Teams can have up to 6 people. If you apply by yourself or with less than 6, we will assign team members to complete your team's skillset.</p>
+
+							<p><b>Is the hackathon just about Fintech?</b></p>
+							<p>Definitely not! Although the 3 mentoring startups are all fintechs, the solution to each “Challenge” doesn’t need to be a fintech solution and we strongly encourage students to draw on their experiences from outside of finance and tech.</p>
+							<p><b>What if I don’t study finance?</b></p>
+							<p>FinHack is open to students of all disciplines so you don’t have to study finance! You just need to have a creative &amp; open mind and a thirst for hacking!</p>
+							<p><b>What’s in it for me?</b></p>
+							<p>Aside from meeting 3 of Australia’s top fintechs, and rubbing shoulders with partners from Reinventure Group, students will have the opportunity to hack away at big challenges facing the fintech industry in teams of like-minded and motivated students.</p>
+
+							<p><b>Can we work on our idea beforehand?</b></p>
+							<p>The problem scenarios will only be released on the night of the hack’s launch (Friday, 10th August). Generally participants are not allowed to start any development or design work on your project before the hack especially code, graphics, visuals and 3D designs. </p>
+							<p>Students are encouraged however to research the fintech space and the three startups from Reinventure’s portfolio. </p>
+						</div>
+						<div class="col-md">
+							<p><b>Can we work on existing projects?</b></p>
+							<p>No, you will not be allowed to work on existing projects at FinHack. However you can synthesis previous ideas, but not tangible products.</p>
+							<p><b>Do I have to stay overnight?</b></p>
+							<p>You are not required to stay overnight. The venue will be closed each night at 6pm and will open again at 7am the next day.  You may work on the project at home.</p>
+							<p><b>I have no hackathon experience can I still take part?</b></p>
+							<p>Of course! We want to encourage as many students to take part as possible. The problem scenarios are designed to be broad to allow participants to use their creativity.</p>
+							<p>What’s more, we will run short workshops and mentoring sessions throughout to support you as much as possible. </p>
+							<p><b>Where can I find people to form a team?</b></p>
+							<p>The best way to find a team is to join the FinHack Facebook Group. There will also be time allotted on the Friday night opening event to meet others and form teams.</p>
+							<p><b>What should I bring?</b></p>
+							<p>A laptop, mobile phone, chargers, and your shiniest thinking caps. </p>
+							<p><b>Is there a Code of Conduct?</b></p>
+							<p>Yes, there is a code of conduct. FinHack follows "The Hack Code of Conduct". This applies to all attendees, sponsors, partners, volunteers and staff. You can <strong><a href="https://hackcodeofconduct.org/737-finhack_2018">view the code of conduct here</a></strong>.</p>
+							<p><b>Who owns the solution after the hack?</b></p>
+							<p>The solution remains the property of the team members and the teams during and after the hack.</p>
+
+							<p>If you have any questions, feel free to shoot us an email at <a href="mailto:Akshat@Textbook.Ventures">Akshat@textbook.ventures</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact">
+				<h1>Got questions?</h1>
+				<p>Feel free to shoot us a message and follow us to stay up to date</p>
+				<div class="row mx-0">
+					<div class="col-sm-3">
+						<a href="mailto:Akshat@Textbook.Ventures">
+							<i class="fa fa-envelope fa-3x mx-2"></i>Event Coordinator</a>
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="https://www.messenger.com/t/textbookventures">
+							<i class="fab fa-facebook-messenger fa-3x mx-2"></i>Facebook
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="https://twitter.com/tb_ventures">
+							<i class="fab fa-twitter fa-3x mx-2"></i>Twitter
+						</a>
+					</div>
+					<div class="col-sm-3">
+						<a href="http://finhack-2018.slack.com/">
+							<i class="fab fa-slack fa-3x mx-2"></i>Slack
+						</a>
+					</div>
+			</div>
+			</section>
+		</main>
+		<footer class="mastfoot py-2 mt-auto ">
+			<div class="inner">
+			© 2018 Textbook Ventures Inc. Trademarks and brands are the property of their respective owners.
+			</div>
+		</footer>
+	<!-- JQuery -->
+		<script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS + Popper JS-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+		<script src="{% static '/js/smoothscroll.js' %}"></script>
+  </body>
+</html>

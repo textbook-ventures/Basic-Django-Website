@@ -1,0 +1,334 @@
+/*
+ * Globals
+ */
+/* Links */
+p {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #ff5c5c;
+}
+
+::selection {
+  color: white;
+  background: #ff5c5c;
+}
+a {
+  color: #444;
+}
+b,strong {
+  font-size: 1.15rem;
+}
+a:focus,
+a:hover {
+  color: #ff5c5c;
+  transition: color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  text-decoration: none;
+}
+.progress {
+  background: #fff;
+}
+.progress-bar {
+  background: #ff5c5c;
+}
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+  background: #333;
+}
+body {
+  display: -ms-flexbox;
+  color: #444;
+  line-height: 2rem;
+  position: relative;
+}
+main {
+  background: white;
+}
+/*
+ * Header
+ */
+.masthead {
+}
+.navbar {
+  background-color: rgba(51, 51, 51, 0.65);
+}
+.masthead-brand img{
+  margin-bottom: 0;
+  max-height: 60px;
+}
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #ff5c5c;
+}
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+/*
+ * Cover
+ */
+#cover-text {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-shadow: none;
+}
+.cover-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.cover-heading2 {
+  letter-spacing: 0.05em;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.lead {
+  letter-spacing: 0.1em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+#inner-cover {
+  background: rgb(255, 92, 92);
+  padding: 5rem 1.5rem 1rem 1.5rem;
+}
+.register-button{
+  margin-top: 5rem;
+}
+#reinventure-button{
+  color: #ff0000;
+  border-color: #ff0000;
+}
+#reinventure-button:hover {
+  color: #fff;
+  background-color: #ff0000;
+}
+
+#piggy {
+  top: 60%;
+  left: 5%;
+  position: absolute;
+  max-height: 200px;
+  animation: fly 4s infinite 0.0s; /* Safari 4.0 - 8.0 */
+}
+#dollar {
+  top: 55%;
+  position: absolute;
+  left: 27%;
+  animation: fly 6s infinite 0.4s; /* Safari 4.0 - 8.0 */
+  max-height: 180px;
+}
+#cog {
+  top: 25%;
+  position: absolute;
+  left: 4%;
+  animation: fly 5s infinite 0.8s; /* Safari 4.0 - 8.0 */
+  max-height: 150px;
+}
+#card {
+  top: 28%;
+  position: absolute;
+  left: 20%;
+  max-height: 250px;
+  animation: fly 4s infinite 1s; /* Safari 4.0 - 8.0 */
+
+}
+#coin {
+  top: 7%;
+  position: absolute;
+  left: 16%;
+  max-height: 160px;
+  animation: fly 6s infinite 0.8s; /* Safari 4.0 - 8.0 */
+
+}
+.slide-up {
+  animation: slideUp 4s; 
+}
+.slide-left {
+  animation: slideLeft 4s; 
+}
+@keyframes slideUp {
+  0% {transform:translateY(500px) }
+  100% {transform:translateY(0px) }
+}
+@keyframes slideLeft {
+  0% {transform:translateX(500px) }
+  100% {transform:translateX(0px) }
+}
+@keyframes fly {
+  50% {transform:translateY(-50px ) translateX(-50px ) }
+  100%% {transform:translateY(50px) translateX( 50px ) }
+}
+#register .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+/*
+ * sections
+ */
+section {
+  max-width: 60em;
+  padding: 14rem;
+  padding: 5rem 0 5rem 0;
+  margin: auto;
+}
+
+#about h1, #challenge h1, #prizes h1, #schedule h1{
+  color: #ff5c5c;
+}
+#venue,#criteria, #challenge, #startups, #register, #map{
+  max-width:100%;
+}
+#sponsors, #venue, #criteria, #faq {
+  background-color: #ededee;
+  max-width:100%
+}
+#register, #startups{
+  padding: 0;
+}
+/*
+ *  sponsors
+ */
+.sponsor-logo-container{
+  min-height: 150px;
+  position: relative;
+}
+.sponsor-logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin:auto;
+}
+
+/*
+ *  prizes
+ */
+.prize-icon {
+  max-height: 8rem;
+  margin-bottom: 2rem;
+}
+
+/*
+ * Startups
+ */
+.startup-logo-container {
+  position: relative;
+}
+.startup-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.startup-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.startup-logo-container:hover .startup-overlay {
+  opacity: 1;
+}
+.startup-description {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1rem; 
+  padding: 1rem;
+  width: 100%
+}
+/*
+ * schedule
+ */
+th {
+  text-align: center;
+  font-size: 1.5rem;
+}
+td {
+  min-width:6rem;
+}
+#faq>b::after {
+  border-bottom: solid red;
+}
+/*
+ * Footer
+ */
+.mastfoot {
+  background-color: #111;
+  color: rgba(255, 255, 255);
+}
+/*
+ * Responsive Styling
+ */
+html { font-size: 20px; }
+
+@media (max-width: 1200px) { 
+	#dollar, #card { display: none; } 
+	html { font-size: 20px; }
+}
+
+@media (max-width: 992px) { 
+	#piggy, #cog { display: none;	}
+	html { font-size: 18px; }
+}
+
+
+@media (max-width: 768px) { 
+  .cover-heading { font-size: 3rem; }
+	html { font-size: 16px; }
+}
+
+@media (max-width: 576px) { 
+	#coin { display: none; }
+}
+
+
