@@ -1,7 +1,8 @@
 Hackathon Website Template
 ==============================================
 
-A very simple one page hackathon website template. Built in django with pipenv.
+A very simple one page website template with DRY in mind. 
+Built in django with pipenv.
 
 Installation
 ------------
