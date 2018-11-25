@@ -1,7 +1,8 @@
 Hackathon Website Template
 ==============================================
 
-A very simple one page hackathon website template. Built in django with pipenv.
+A very simple one page website template with DRY in mind. 
+Built in django with pipenv.
 
 Installation
 ------------
@@ -15,7 +16,11 @@ Features
 ----------
 ### Basic Concepts
 -   Start serving on localhost running:
-    $ pipenv run python manage.py collectstatic
-    $ pipenv run python manage.py runserver 0.0.0.0
+
+```
+  $ pipenv shell
+  $ python manage.py collectstatic
+  $ python manage.py runserver 0.0.0.0
+```
     
 ### Other Commands
